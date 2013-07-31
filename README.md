@@ -33,6 +33,7 @@ npm install socket.io
 Download files from GitHub to the BeagleBone Black:
 
 ````sh
+cd ~
 git clone git://github.com/lgxlogic/bonescript-socketio.git
 cp bonescript-socketio/*  /var/lib/cloud9
 ````
