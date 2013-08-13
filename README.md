@@ -1,13 +1,13 @@
 BoneScript SocketIO Example
 ===========================
 
-This is an example of how to use Socket.IO and BoneScript to control a BeagleBone Black from a remote device. You’ll be able to control the brightness of LED’s from a mobile device (cell phone, tablet) and use motion to control the LED’s. The code uses Node.js as the web server, Socket.IO for communication between the web page and the BeagleBone Black, and Mobile JQuery for the web page lay-out.
+This is an example of how to use Socket.IO and BoneScript to control a BeagleBone Black from a remote device. Youï¿½ll be able to control the brightness of LEDï¿½s from a mobile device (cell phone, tablet) and use motion to control the LEDï¿½s. The code uses Node.js as the web server, Socket.IO for communication between the web page and the BeagleBone Black, and Mobile JQuery for the web page lay-out.
 
 
 Getting Started
 ---------------
-What you’ll need:
-- 3 LED’s (Red, Green, Yellow)
+What youï¿½ll need:
+- 3 LEDï¿½s (Red, Green, Yellow)
 - 3 100 Ohm resistors
 - Breadboard
 - Jumper wires
@@ -34,11 +34,11 @@ Download files from GitHub to the BeagleBone Black:
 
 ````sh
 cd ~
-git clone git://github.com/lgxlogic/bonescript-socketio.git
+git clone git://github.com/lgxlogic/BoneScript-SocketIO
 cp bonescript-socketio/*  /var/lib/cloud9
 ````
 
-Go to the Cloud9 IDE on the BeagleBone Black, open HtmlLedDemo.js and click the RUN button. In the console you’ll see the IP address of the BeagleBone Black on your network. Enter this IP address in a web browser on your cell phone or other device. Motion control only works on cell phones and tablets with modern browsers such as Google Chrome on Android. To see if your device is supported, go here: http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html
+Go to the Cloud9 IDE on the BeagleBone Black, open HtmlLedDemo.js and click the RUN button. In the console youï¿½ll see the IP address of the BeagleBone Black on your network. Enter this IP address in a web browser on your cell phone or other device. Motion control only works on cell phones and tablets with modern browsers such as Google Chrome on Android. To see if your device is supported, go here: http://www.html5rocks.com/en/tutorials/device/orientation/deviceorientationsample.html
 
 
 More info
