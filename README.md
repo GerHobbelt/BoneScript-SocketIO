@@ -8,7 +8,7 @@ Getting Started
 ---------------
 What you'll need:
 - 3 LED's (Red, Green, Yellow)
-- 3 100 Ohm resistors
+- 3 330 Ohm resistors
 - Breadboard
 - Jumper wires
 
